@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.checkaboy</groupId>
-    <artifactId>objectutils</artifactId>
+    <artifactId>object-utils</artifactId>
     <version>0.1.ALPHA</version>
 
     <properties>

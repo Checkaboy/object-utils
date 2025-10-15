@@ -6,7 +6,7 @@
 
     <groupId>com.checkaboy</groupId>
     <artifactId>object-utils</artifactId>
-    <version>0.1.ALPHA</version>
+    <version>0.2.ALPHA</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

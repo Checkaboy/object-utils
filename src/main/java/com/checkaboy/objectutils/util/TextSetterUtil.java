@@ -1,6 +1,6 @@
 package com.checkaboy.objectutils.util;
 
-import com.checkaboy.objectutils.model.Named;
+import com.checkaboy.objectutils.model.INamed;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -20,7 +20,7 @@ public class TextSetterUtil {
 
         if (o instanceof Date) return parseDate((Date) o);
         if (o instanceof Boolean) return parseBoolean((Boolean) o);
-        if (o instanceof Named) return ((Named) o).getName();
+        if (o instanceof INamed) return ((INamed) o).getName();
 
         return o.toString();
     }
@@ -30,7 +30,7 @@ public class TextSetterUtil {
 
         if (o instanceof Date) return parseDate((Date) o);
         if (o instanceof Boolean) return parseBoolean((Boolean) o);
-        if (o instanceof Named) return ((Named) o).getName();
+        if (o instanceof INamed) return ((INamed) o).getName();
 
         return o.toString();
     }

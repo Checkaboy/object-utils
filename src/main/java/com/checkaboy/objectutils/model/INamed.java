@@ -1,6 +1,6 @@
 package com.checkaboy.objectutils.model;
 
-public interface Named {
+public interface INamed {
 
     String getName();
 
